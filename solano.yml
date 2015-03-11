@@ -1,5 +1,7 @@
 ---
 :timeout: 300
+hooks:
+  post_worker: "cp test/reports/*.xml $HOME/results/$TDDIUM_SESSION_ID/session/"
 
 :ruby_version: 'ruby-2.1.2'
 
