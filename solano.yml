@@ -5,6 +5,12 @@ hooks:
 
 :ruby_version: 'ruby-2.1.2'
 
+#:test_pattern:
+#- features/*.feature
+#- spec/**_spec.rb
+
 :tests:
 - type: ruby-testunit
   mode: basic
+  report_files:
+  - "test/reports/TEST-*.xml"
