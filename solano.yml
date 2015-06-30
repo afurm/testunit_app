@@ -8,3 +8,4 @@ hooks:
 :tests:
 - type: ruby-testunit
   mode: basic
+
