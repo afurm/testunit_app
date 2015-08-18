@@ -14,10 +14,6 @@ class TestSubtracter < Test::Unit::TestCase
     assert_equal(3, @subtracter.subtract(2), "Should have subtracted correctly")
   end
 
-  def test_fail
-    assert_equal(true, false)
-  end
-
   def teardown
     @subtracter = nil
   end

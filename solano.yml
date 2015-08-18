@@ -1,15 +1,16 @@
 ---
-:timeout: 300
+timeout: 300
 hooks:
   post_worker: "cp test/reports/*.xml $HOME/results/$TDDIUM_SESSION_ID/session/; cp /mnt/home/u3/log/task*.log $HOME/results/$TDDIUM_SESSION_ID/session/ 2>/dev/null || :"
 
-:ruby_version: 'ruby-2.1.2'
+ruby_version: 'ruby-2.1.5'
+bundler_version: 1.7.6
 
 #:test_pattern:
 #- features/*.feature
 #- spec/**_spec.rb
 
-:tests:
+tests:
 - type: ruby-testunit
   mode: basic
   report_files:
