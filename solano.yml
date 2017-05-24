@@ -1,5 +1,5 @@
 ---
-timeout: 300
+timeout: 10
 #hooks:
 #  post_worker: "cp test/reports/*.xml $HOME/results/$TDDIUM_SESSION_ID/session/"
 
