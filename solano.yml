@@ -5,3 +5,6 @@ bundler_version: 1.7.6
 tests:
 - type: ruby-testunit
   mode: basic
+cache:
+  key_paths: []
+  save_paths: []  
