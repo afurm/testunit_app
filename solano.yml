@@ -2,6 +2,6 @@
 ruby_version: ruby-2.1.5
 bundler_version: 1.7.6
 
-#tests:
-#- type: ruby-testunit
- # mode: basic
+tests:
+- type: ruby-testunit
+  mode: basic
