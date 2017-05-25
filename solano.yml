@@ -1,10 +1,14 @@
----
-ruby_version: ruby-2.1.5
-bundler_version: 1.7.6
-
-tests:
-- type: ruby-testunit
-  mode: basic
+test_pattern:
+  - test/**/*_test.rb
+ 
+ruby_version: '2.3.3'
+bundler_version: 1.14.3
+sqlite: false
+ 
 cache:
   key_paths: []
-  save_paths: []  
+  save_paths: []
+ 
+notify:
+- channel: email
+  recipients: committers
