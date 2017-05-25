@@ -1,8 +1,14 @@
----
-timeout: 300
+test_pattern:
+  - test/*_test.rb
+ 
 ruby_version: 'ruby-2.1.5'
 bundler_version: 1.14.3
-
-tests:
-- type: ruby-testunit
-  mode: basic
+sqlite: false
+ 
+cache:
+  key_paths: []
+  save_paths: []
+ 
+notify:
+- channel: email
+  recipients: committers
