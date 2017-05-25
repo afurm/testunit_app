@@ -1,7 +1,7 @@
 ---
 timeout: 300
 ruby_version: '2.3.3'
-bundler_version: 1.14.3
+bundler_version: 1.7.6
 
 tests:
 - type: ruby-testunit
