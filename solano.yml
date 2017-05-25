@@ -1,7 +1,7 @@
 test_pattern:
   - test/*_test.rb
  
-ruby_version: '2.3.3'
+ruby_version: '2.3.1'
 bundler_version: 1.14.3
 sqlite: false
  
