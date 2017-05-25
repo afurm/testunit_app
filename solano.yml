@@ -2,7 +2,7 @@ test_pattern:
   - test/*_test.rb
  
 ruby_version: '2.3.3'
-bundler_version: 1.14.3
+bundler_version: 1.7.6
 sqlite: false
  
 cache:
