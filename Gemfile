@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'ci_reporter_test_unit'
+gem 'minitest', '=5.10.1'
 gem 'rake'
