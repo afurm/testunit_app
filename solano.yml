@@ -6,8 +6,7 @@ bundler_version: 1.14.3
 sqlite: false
  
 cache:
-  key_paths: []
-  save_paths: []
+  nocache: true
  
 notify:
 - channel: email
